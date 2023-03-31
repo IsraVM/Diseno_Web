@@ -1,0 +1,156 @@
+*{
+    /* siempre matamos los margenes y espacios que da el navegador por defoult */
+    margin:0;    
+    padding: 0;
+}
+
+nav img{
+    width: 10%;
+}
+nav p {
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    background-color: rgb(89, 206, 241);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+/* termina nav comienza el texto y la imagen */
+header{
+    background:linear-gradient(rgb(0, 50, 150), #ffffff);
+    padding: 0 30px;
+} 
+.caja{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.cajita{
+    width: 100%;
+    text-align: end;
+}
+.cajita p{
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 4em;
+
+}
+img{
+    width: 50%;
+}
+span{
+    color: rgb(255, 255, 255);
+}
+/* termina header y comienza seccion acerca de mi */
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+.acerca{
+    height: 80vh;
+    width: 100%;
+    background: url(../img/ondas.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.acerca1{
+
+    height: 80vh;
+    width: 100%;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+.acerca2{
+    height: 50vh;
+    width: 50%;
+    background: linear-gradient(to right, (rgba(0, 0, 0, 0.432), #ffffff73));
+    border-radius: to left 30px;
+    border-radius: to right 30px;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.329);    
+}
+
+a:hover{
+    color: black;
+    font-size: 20px;
+    background-color: gainsboro;
+}
+
+/* pseudo clase HOVER 
+cambia el estilo de un elemento cuando el mouse pasa sobre el 
+*/
+
+/* h2{
+    font-size: 2.5em;
+    text-align: center;
+
+}
+.acerca{
+    height: 80vh;
+    width: 100%;
+    background: url(../img/4977-removebg-preview.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.acerca1{
+     height: 80vh;
+    width: 100%;
+    background: url(../img/4977-removebg-preview.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.acerca2{
+    height: 50vh;
+    width: 70%;
+    border-radius: 30px;
+    background-color: rgba(116, 241, 241, 0.329);
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+} */
